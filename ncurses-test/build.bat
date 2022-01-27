@@ -1,0 +1,1 @@
+ clang -static -m32 -IC:\Users\dan\Desktop\PDCursesMod-master -LC:\Users\dan\sandbox\cross-compilation-tests\ncurses-test\lib -lpdcurses -luser32 -ladvapi32 -lwinmm hello.c
