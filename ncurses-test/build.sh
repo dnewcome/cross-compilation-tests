@@ -1,0 +1,1 @@
+gcc cur.c -lncurses
