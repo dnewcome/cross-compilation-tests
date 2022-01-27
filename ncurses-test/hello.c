@@ -1,3 +1,7 @@
+#define PDC_WIDE
+#undef PDC_FORCE_UTF8
+#undef CHTYPE_32
+
 #include <ncurses.h>
 
 int main()
@@ -6,7 +10,7 @@ int main()
 	printw("Hello World !!!");	/* Print Hello World		  */
 	refresh();			/* Print it on to the real screen */
 	getch();			/* Wait for user input */
-	//endwin();
+	endwin();
 
 	return 0;
 }
